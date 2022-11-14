@@ -37,7 +37,7 @@ Abaixo, você pode encontrar uma análise estatística breve do dataset:
 
 <img src="https://i.ibb.co/ygvNZGJ/Screenshot-1.png">
 
-## 🗺️ Descriptive Analysis
+## 🗺️ Análise descritiva
 
 Aqui, vou responder as 4 perguntas que me propus a responder.
 
@@ -76,7 +76,7 @@ Os dois níveis de escolaridade mais altos ("Doctorate" e "Prof-school") são aq
 
 Agora, falando sobre a proporção de brancos e negros, temos que os 4 níveis de escolaridade mais altos são aqueles em que há menos negros e 7 dos 9 níveis de escolaridade mais baixos são aqueles em que há mais negros. Além disso, a proporção média de negros é de 10.11%, atingindo um mínimo de 2.84% no nível "Prof-school". Sendo assim, novamente, fica claro que a proporção de negros diminui consideravelmente à medida em que o nível de escolaridade aumenta.
 
-## 📈 The Prediction & Conclusion
+## 📈 Teste de modelos
 
 Para fazer a predição, testei vários modelos com a validação cruzada e o modelo que apresentou a melhor performance foi o Gradient Boosting Classifier, da biblioteca ensemble, do scikit-learn.
 
